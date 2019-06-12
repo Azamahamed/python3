@@ -1,0 +1,11 @@
+az=int(input())
+s=0
+temp=az
+while(az!=0):
+    t=int(az%10)
+    s=int(s*10+t)
+    az=int(az/10)
+if(temp==s):
+    print("yes")
+else:
+    print("no")
