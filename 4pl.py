@@ -1,0 +1,2 @@
+az=input()
+print(a+".")
