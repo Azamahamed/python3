@@ -1,6 +1,6 @@
-p1,q=map(int,input().split())
+p1,q5=map(int,input().split())
 li=list()
-for x in range(p1,q+1):
+for x in range(p1,q5+1):
     cnt=0
     for i in range(1,x+1):
         if x%i==0:
